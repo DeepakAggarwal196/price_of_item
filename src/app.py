@@ -1,11 +1,12 @@
 import requests
 from bs4 import BeautifulSoup
 
-request = requests.get("http://www.amazon.in/dp/B00Y0R94PQ")
+request = requests.get("http://www.amazon.in/dp/B00Y0R94PQ") # link of item to be tracked
 content = request.content
 soup = BeautifulSoup(content, "html.parser")
 element = soup.find("span", {"id": "priceblock_ourprice", "class": "a-size-medium a-color-price"})
 # <span id="priceblock_ourprice" class="a-size-medium a-color-price"><span class="currencyINR">&nbsp;&nbsp;</span> == $0 "7,200.00" </span>
+# check from inspect element and write the tag which contains price of item to be tracked
 
 string_price = element.text.strip() # "7,200"
 price_without_comma_1 = string_price[0]

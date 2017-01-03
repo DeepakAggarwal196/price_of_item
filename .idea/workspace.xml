@@ -28,8 +28,8 @@
       <file leaf-file-name="app.py" pinned="false" current-in-tab="true">
         <entry file="file://$USER_HOME$/PythonProject/price-of-item/src/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+            <state relative-caret-position="136">
+              <caret line="8" column="89" lean-forward="true" selection-start-line="8" selection-start-column="89" selection-end-line="8" selection-end-column="89" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -63,6 +63,7 @@
         <option value="$USER_HOME$/PythonProject/price-of-chair/src/data.xml" />
         <option value="$USER_HOME$/PythonProject/price-of-chair/requirements.txt" />
         <option value="$USER_HOME$/PythonProject/price-of-chair/src/app.py" />
+        <option value="$USER_HOME$/PythonProject/price-of-item/src/app.py" />
       </list>
     </option>
   </component>
@@ -353,8 +354,8 @@
     </entry>
     <entry file="file://$USER_HOME$/PythonProject/price-of-item/src/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        <state relative-caret-position="136">
+          <caret line="8" column="89" lean-forward="true" selection-start-line="8" selection-start-column="89" selection-end-line="8" selection-end-column="89" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
